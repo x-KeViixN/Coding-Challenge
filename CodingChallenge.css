@@ -1,0 +1,69 @@
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+.container{
+    width: 600px;
+    margin: auto;
+    color: white;
+    background-color: rgb(0 0 0 / 50%);
+    border-radius: 5%;
+    padding: 5%;
+}
+
+header{
+    text-align: center;
+}
+/* Text and logo */
+.logo{
+    width: 200px;
+    text-align: center;
+    line-height: 1,5;
+}
+.sublogo{
+    color: rgb(29, 218, 8);
+    font-size: 35px;
+    line-height: 1,5;
+}
+/* button */
+#buttn{
+    background-color: rgb(29, 218, 8);
+    padding: 10px;
+}
+
+
+/* main */
+span > h3{
+    display: inline-block;
+}
+h3{
+    font-size: 25px;
+}
+.square::before{
+   content:'\25FD';
+}
+.littlearrow::before{
+    content:'\21A6';
+}
+#first-hr{
+    display: inline-block;
+    width: 300px;
+    height: 20px;
+    background-color: orange;
+    border-radius: 5px;
+}
+#second-hr{
+    display: inline-block;
+    width: 500px;
+    height: 20px;
+    background-color: rgb(29, 218, 8);
+    border-radius: 5px;
+}
+#third-hr{
+
+    display: inline-block;
+    width: 100px;
+    height: 20px;
+    background-color: red;
+    border-radius: 5px;
+}
